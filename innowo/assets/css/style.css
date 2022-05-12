@@ -968,7 +968,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*header top css end*/
 /* 2.2 header middel css here */
 .logo a img {
-  max-width: 162px;
+  max-width: 250px;
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
@@ -978,7 +978,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .header_middle {
   padding: 25px 0;
-  background: #3e51eb;
+  background: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_middle {
@@ -1185,6 +1185,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 400;
   padding: 0 132px 0 20px;
   opacity: 0.7;
+  border: 1px solid #000000;
+  border-radius: 45px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .search_box input {
