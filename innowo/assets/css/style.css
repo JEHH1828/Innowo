@@ -978,7 +978,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .header_middle {
   padding: 25px 0;
-  background: rgb(255, 255, 255);
+  background: linear-gradient(34deg, rgba(171,19,204,1) 0%, rgba(21,172,212,1) 100%, rgba(0,212,255,1) 100%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header_middle {
@@ -1185,7 +1185,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 400;
   padding: 0 132px 0 20px;
   opacity: 0.7;
-  border: 1px solid #000000;
+  
   border-radius: 45px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1542,7 +1542,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*header middel css end*/
 /* 2.4 main menu css here */
 .main_menu_area {
-  background: #1D1678;
+  background: linear-gradient(27deg, rgba(171,19,204,0.4962359943977591) 0%, rgba(0,212,255,0.45702030812324934) 100%, rgba(21,212,210,0) 100%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main_menu_area {
@@ -4273,7 +4273,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   transition: 0.3s;
 }
 .testimonial_active .owl-dots .owl-dot.active {
-  background: #1D1678;
+  background: rgba(42,53,199,1);
+}
+.testimonial_are {
+  color: white;
+}
+.bg{
+  background: rgb(42,53,199);
+  background: -moz-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(42,53,199)), color-stop(60%, rgb(165,29,196)), color-stop(100%, rgb(165,29,196)));
+  background: -webkit-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -o-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -ms-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: linear-gradient(135deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a35c7', endColorstr='#a51dc4', GradientType=1 );
 }
 .testimonial_active .owl-dots .owl-dot:hover {
   background: #1D1678;
@@ -4342,9 +4355,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .testimonial_content h3 a {
-  color: #1D1678;
+  color: #ffffff;
   font-weight: 600;
   margin-right: 10px;
+  text-decoration: underline;
 }
 
 /*brand css here*/
