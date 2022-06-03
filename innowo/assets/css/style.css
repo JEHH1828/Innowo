@@ -255,12 +255,14 @@ figure {
   padding: 0;
   margin: 0;
 }
-
+td{
+  width: 467px;
+}
 /*-- 
     - Common Classes
 -----------------------------------------*/
 .fix {
-  overflow: hidden;
+  overflow: unset;
 }
 
 .hidden {
@@ -4351,6 +4353,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin: 0 3px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+.card{
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .testimonial_active .owl-dots .owl-dot.active {
   background: rgba(42,53,199,1);

@@ -1,0 +1,28 @@
+.bg-innowo article {
+    background: rgb(42,53,199);
+  background: -moz-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(42,53,199)), color-stop(60%, rgb(165,29,196)), color-stop(100%, rgb(165,29,196)));
+  background: -webkit-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -o-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: -ms-linear-gradient(-45deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  background: linear-gradient(135deg, rgb(42,53,199) 0%, rgb(165,29,196) 60%, rgb(165,29,196) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a35c7', endColorstr='#a51dc4', GradientType=1 );
+  margin: 10px;
+  color: white;
+}
+#devs{
+    text-align: center;
+    font-size: 3.5rem;
+}
+/*
+.bg-innowo article a img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+*/
+#bg-innowo article p a img {
+    float: right;
+} 
+footer{
+    margin: 10px;
+}
